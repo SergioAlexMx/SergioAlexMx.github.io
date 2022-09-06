@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Chrome, Firefox OS and Opera Status Bar Color -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/notablog.css">
+<!-- Favicon -->
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;💻&lt;/text&gt;&lt;/svg&gt;">
+
+<style>
+  :root {
+    font-size: 20px;
+  }
+</style>
+  <title>Certificados y firma electrónica&nbsp;|&nbsp;Sergio Alexis</title>
+  <meta property="og:type" content="blog">
+  <meta property="og:title" content="Certificados y firma electrónica">
+  
+    <meta name="description" content="Explicación breve sobre que son los certificados y firma electrónica ">
+    <meta property="og:description" content="Explicación breve sobre que son los certificados y firma electrónica ">
+  
+  
+    <meta property="og:image" content="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🔐&lt;/text&gt;&lt;/svg&gt;">
+  
+  <style>
+    .DateTagBar {
+      margin-top: 1.0rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="Navbar">
+  <a href="index.html">
+    <div class="Navbar__Btn">
+      
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;💻&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+      
+      <span>Home</span>
+    </div>
+  </a>
+  
+    
+  
+    
+  
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="about.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;😀&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+          
+          <span>Acerca de mi</span>
+        </div>
+      </a>
+    
+  
+</nav>
+  <header class="Header">
+    
+      <div class="Header__Cover">
+        <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-1.2.1&amp;q=80&amp;cs=tinysrgb&amp;fm=jpg&amp;crop=entropy">
+      </div>
+    
+    <div class="Header__Spacer ">
+    </div>
+    
+      <div class="Header__Icon">
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🔐&lt;/text&gt;&lt;/svg&gt;"></span>
+      </div>
+    
+    <h1 class="Header__Title">Certificados y firma electrónica</h1>
+    
+      <div class="DateTagBar">
+        
+          <span class="DateTagBar__Item DateTagBar__Date">Posted on Wed, Aug 17, 2022</span>
+        
+        
+          <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--red">
+            <a href="tag/Seguridad en Redes.html">Seguridad en Redes</a>
+          </span>
+        
+      </div>
+    
+  </header>
+  <article id="https://www.notion.so/abfe0ec74ee4491a9f5122e17fedc8a2" class="PageRoot"><div id="https://www.notion.so/4550ea5cefd74112b1a91ca050ad8188" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">El hombre, al ser parte de la sociedad, siempre ha buscado dejar «huella» en las actividades y productos que realiza, con el fin de dar por entendido la autoría y tener un control de las cosas… Parte de la naturaleza humana que nos confiere la racionalidad y sentido de pertenencia.</span></span></p></div><div id="https://www.notion.so/7f904e2b09cc4119a68ee89cf9d5df6e" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">Hasta no hace mucho las actividades que necesitaban ser validadas o más bien atestiguadas, se hacían mediante documentos físicos donde uno o más testigos y realizadores daban por verdadero lo estipulado en ese documento o en un legajo de evidencias, no obstante conforme ha avanzado el tiempo, las computadoras y las redes que las interconecta, se han vuelto cotidiano para cualquier persona y organización ofreciendo grandes beneficios e inclusive una reducción a a la contaminación sustituyendo gran parte de los documentos oficiales por documentos digitales y algunas actividades que antes solo se evidenciaban a lapiz, papel y firma, no obstante ha surgido un problema, un tanto predecible: ¿Como doy validez verdadera a algo que es digital y fácilmente repetible?</span></span></p></div><div id="https://www.notion.so/797df197ba9c4e41bc0bf7fd2bf2aa47" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">Los certificados de estudios son uno de los tipos de certificados que se tratarán ente blog. Estos certificados se entregan para atestiguar formalmente la finalización con éxito de los estudios al concluir un nivel de educación. Anteriormente esto se les daban a los graduados en un documento físico, el cual muchas veces con el tiempo terminaba doblado, roto o simplemente se perdía. Con la aparición de las computadoras esto se ha sustituido por un certificado digital, pero ¿cómo es que estos funcionan?.</span></span></p></div><div id="https://www.notion.so/fa094e799b8940b2b4181f4cf41e13b9" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">Un certificado digital es un documento que identifica a una persona mediante una clave pública que le permite realizar transacciones en línea. Una autoridad certificadora reconocida concede este certificado y autoriza su emisión. No obstante con un certificado digital no basta para dar validez a algo, es como si ya tuviéramos el papel oficial impreso con nuestro nombre, pero hace falta que sea firmado… para ello existe la firma digital.</span></span></p></div><div id="https://www.notion.so/e78464e7efbb43cbb68cef1f29083667" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">La firma electrónica es un conjunto de datos digitales que se adjuntan a un mensaje de datos o a un documento electrónico y que cumplen los mismos fines legales que la firma manuscrita al acreditar la identidad del emisor en relación con el mensaje y establecer su autoría sobre la información contenida en el mismo. Será imprescindible haber recibido previamente un certificado de firma electrónica, que es emitido por una Entidad de Certificación, para poder utilizar la firma electrónica. La clave pública es uno de los elementos que contiene el certificado emitido. La clave pública y la clave privada son dos números que operan las firmas electrónicas y tienen un vínculo entre ellas. El firmante se queda con la clave privada, mientras que la clave pública se pone a disposición de los receptores de la comunicación o documento firmado.</span></span></p></div><h2 id="https://www.notion.so/e5dc5a7b7a43461bb822c25146f33749" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/e5dc5a7b7a43461bb822c25146f33749"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">Referencias</span></span></h2><div id="https://www.notion.so/75ad285311b94ea380bcf157537fe109" class="Bookmark"><a href="https://www.ing.es/ennaranja/finanzas-personales/certificado-digital"><h5 class="Bookmark__Title">Certificado digital: qué es, para qué sirve, cómo se obtiene - En Naranja - ING</h5><p class="Bookmark__Desc">Tiempo de lectura: 3 minutos Si antes teníamos que hacer todos los trámites burocráticos acudiendo a la ventanilla correspondiente, lo que suponía aguantar colas y dedicar mucho tiempo, hoy gracias a la digitalización podemos hacer la mayoría de las gestiones por internet, más rápido y sin desplazarnos.</p><p class="Bookmark__Link">https://www.ing.es/ennaranja/finanzas-personales/certificado-digital</p></a></div><div id="https://www.notion.so/3b56831399f9425abf4b2b88e7e65973" class="Bookmark"><a href="https://prepaenlinea.sep.gob.mx/nuestro-programa/certificado-electronico/"><h5 class="Bookmark__Title">Certificado electrónico</h5><p class="Bookmark__Desc">Es un documento que la autoridad educativa emite por medios electrónicos, cuya validez y reconocimiento en el Sistema Educativo Nacional es la misma que la de un certiﬁcado emitido por medios impresos.</p><p class="Bookmark__Link">https://prepaenlinea.sep.gob.mx/nuestro-programa/certificado-electronico/</p></a></div><div id="https://www.notion.so/c47bc196576840e695ecae7caf61d987" class="Bookmark"><a href="http://web.uaemex.mx/fise/0_1_inciso.html#:~:text=El%20uso%20de%20la%20Firma,evitar%20el%20uso%20de%20papel"><h5 class="Bookmark__Title">FISE * ¿Qué es y para qué sirve la Firma Electrónica?</h5><p class="Bookmark__Desc">¿QUÉ ES Y PARA QUÉ SIRVE LA FIRMA ELECTRÓNICA? ¿Qué es y para qué sirve la Firma Electrónica?</p><p class="Bookmark__Link">http://web.uaemex.mx/fise/0_1_inciso.html#:~:text=El%20uso%20de%20la%20Firma,evitar%20el%20uso%20de%20papel</p></a></div></article>
+  <footer class="Footer">
+  <div>&copy; Sergio Alexis 2022</div>
+  <div>&centerdot;</div>
+  <div>Powered by <a href="https://github.com/dragonman225/notablog" target="_blank"
+      rel="noopener noreferrer">Notablog</a>.
+  </div>
+</footer>
+</body>
+
+</html>
